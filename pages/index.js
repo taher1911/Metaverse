@@ -12,7 +12,7 @@ import {
 
 const Page = () => (
   <div
-    className=" overflow-hidden "
+    className="main overflow-hidden "
     style={{ background: "#1A232E", overflow: "hidden" }}
   >
     <Navbar />

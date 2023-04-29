@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 
+import Image from "next/image";
 import styles from "../styles";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 
@@ -20,11 +21,18 @@ const GetStarted = () => (
         variants={planetVariants("left")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/get-started.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
+          width={700}
+          height={700}
         />
+        {/* <img
+          src="/get-started.png"
+          alt="get-started"
+          className="w-[90%] h-[90%] object-contain"
+        /> */}
       </motion.div>
       <motion.div
         variants={fadeIn("left", "tween", 0.2, 1)}

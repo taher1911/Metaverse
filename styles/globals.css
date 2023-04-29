@@ -9,6 +9,23 @@
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6758a3;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #523f9e;
+}
 
 .gradient-01 {
   background-image: linear-gradient(
